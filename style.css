@@ -1,0 +1,108 @@
+body{
+    font-family: 'Baloo Bhai 2', cursive;
+    margin: 0;
+}
+.tomato-highlight{
+    color: tomato;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+h3{
+    font-size: 40px;
+    
+}
+h2{
+    font-size: 50px;
+    font-weight: 900;
+}
+section{
+    padding-top: 120px;
+}
+.header{
+    height: 600px;
+    background-image: url("header-bg.png");
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.btn{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    background-image: linear-gradient(90deg, salmon, tomato);
+    font-size: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.biography{
+    height: 750px;
+    background-image: url("biography-bg.png");
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.bio-text{
+    padding-top: 80px;
+}
+.latest-work{
+    text-align: center;
+    height: 600px;
+    background-image: url("latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.work-items{
+    float: left;
+    width: 25%;
+    margin: 4%;
+    box-shadow: 10px 10px 20px gray;
+}
+.work-items:hover{
+    float: left;
+    width: 25%;
+    margin: 4%;
+    box-shadow: 7px 7px 15px gray;
+}
+.work-items img{
+    width: 100%;
+}
+.footer{
+    text-align: center;
+    height: 600px;
+    background-image: url("footer-bg.png");
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.bruce{
+    font-size: 16px;
+    color: gray;
+    
+}
+.mail-btn{
+
+    margin: 50px 200px;
+    padding: 50px 20px;
+    background-image: linear-gradient(90deg, salmon, tomato);
+    border-radius: 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+a .mail-btn{
+    text-decoration: none;
+    color: white;
+}
+p{
+    font-size: 20px;
+}
+.mail-div{
+    font-weight: 800;
+    font-size: 35px;
+}
